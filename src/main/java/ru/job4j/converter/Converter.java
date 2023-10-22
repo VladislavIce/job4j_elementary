@@ -28,7 +28,6 @@ public class Converter {
         System.out.println("300 rubles are 5 dollar. Test result : " + resultTest);
     }
 
-
     public static void main(String[] args) {
         float euro = rubleToEuro(140);
         float dollar = rubleToDollar(2000);
