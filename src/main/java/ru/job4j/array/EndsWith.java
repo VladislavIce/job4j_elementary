@@ -8,9 +8,6 @@ public class EndsWith {
                 result = false;
                 break;
             }
-            if (word[word.length - i - 1] == post[post.length - i - 1]) {
-                result = true;
-            }
         }
         return result;
     }
