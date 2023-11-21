@@ -8,9 +8,6 @@ public class Check {
                 result = false;
                 break;
             }
-            if (data[0] == data[i]) {
-                result = true;
-            }
         }
         return result;
     }
