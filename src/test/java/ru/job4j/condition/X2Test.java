@@ -7,19 +7,15 @@ import org.junit.jupiter.api.Test;
 class X2Test {
     @Test
     void whenA10B0C0X2Then40() {
-        /* Входные параметра. Их будет 4 для данного случая*/
         int a = 10;
         int b = 0;
         int c = 0;
         int x = 2;
-        /* ожидаемое значение. Это всегда одна переменная. */
         int expected = 40;
-        /* вызов метода, который хотим проверить. */
-        /* Результат вычисления. Это всегда одна переменная. */
         int result = X2.calc(a, b, c, x);
-        /* сравнение полученного значения с ожидаемым */
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenA1B1C1X1Then3() {
         int a = 1;
@@ -30,6 +26,7 @@ class X2Test {
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenA0B1C1X1Then2() {
         int a = 0;
@@ -40,6 +37,7 @@ class X2Test {
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenA1B1C0X1Then2() {
         int a = 1;
@@ -50,6 +48,7 @@ class X2Test {
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenA1B1C1X0Then1() {
         int a = 1;
