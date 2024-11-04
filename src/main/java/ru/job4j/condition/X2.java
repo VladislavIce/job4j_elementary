@@ -6,10 +6,10 @@ public class X2 {
     }
 
     public static void main(String[] args) {
-        int a = 1;
-        int b = 1;
-        int c = 1;
-        int x = 0;
+        int a = 10;
+        int b = 10;
+        int c = 10;
+        int x = 10;
         int result = X2.calc(a, b, c, x);
         System.out.println(result);
     }
