@@ -20,7 +20,6 @@ class X2Test {
         /* сравнение полученного значения с ожидаемым */
         assertThat(result).isEqualTo(expected);
     }
-
     @Test
     void whenA1B1C1X1Then3() {
         int a = 1;
@@ -31,7 +30,6 @@ class X2Test {
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
-
     @Test
     void whenA0B1C1X1Then2() {
         int a = 0;
@@ -42,7 +40,6 @@ class X2Test {
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
-
     @Test
     void whenA1B1C0X1Then2() {
         int a = 1;
@@ -53,7 +50,6 @@ class X2Test {
         int result = X2.calc(a, b, c, x);
         assertThat(result).isEqualTo(expected);
     }
-
     @Test
     void whenA1B1C1X0Then1() {
         int a = 1;
